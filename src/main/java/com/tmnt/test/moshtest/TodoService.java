@@ -23,6 +23,9 @@ public class TodoService {
 
     //read
     public List<Todo> getAllTodos(){
+//        todos.add(new Todo(1L, "Eat pizza", false));
+//        todos.add(new Todo(2L, "Practice Java", true));
+//        todos.add(new Todo(3L, "Beat Shredder", false));
         return todos;
     }
 
